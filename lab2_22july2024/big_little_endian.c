@@ -6,7 +6,7 @@ int main()
 {
     unsigned int val = 0x11223344;
     char* c = (char*) &(val);
-    if(c[0]==0x11) printf("Big");
-    else printf("Little");
+    if(c[0]==0x11) printf("Big Endian bit storage");
+    else printf("Little Endian bit storage");
     return 0;
 }
